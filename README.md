@@ -1,4 +1,5 @@
-# cse210-ww-modelo-pt
-Este é o código inicial para os alunos da versão mundial do conteúdo do CSE 210.
+# cse210-projetos
 
-Este repositório contém o código inicial para vários projetos diferentes.
+Este repositório contém meus projetos do curso CSE 210.
+
+Nome: Naiara Cassimiro
