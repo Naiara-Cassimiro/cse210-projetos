@@ -22,7 +22,7 @@ public class Diario
             foreach (Entrada entrada in _entradas)
             {
                 arquivoSaida.WriteLine(
-                    $"{entrada._data}|{entrada._textoPergunta}|{entrada._textoResposta}"
+                    $"{entrada._data}|{entrada._textoPergunta}|{entrada._textoResposta}|{entrada._humor}"
                 );
             }
         }
@@ -43,6 +43,7 @@ public class Diario
             entrada._data = partes[0];
             entrada._textoPergunta = partes[1];
             entrada._textoResposta = partes[2];
+            entrada._humor = partes[3];
 
             AdicionarEntrada(entrada);
         }
