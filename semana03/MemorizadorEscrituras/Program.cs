@@ -17,6 +17,12 @@ class Program
         while (entrada != "quit" && !scripture.IsCompletelyHidden())
         {
             Console.Clear();
+            Console.WriteLine(scripture.GetDisplayText());
+
+            Console.WriteLine();
+            Console.WriteLine("Pressione Enter para continuar ou digite 'quit' para sair.");
+
+            entrada = Console.ReadLine() ?? "";
         }
     }
 }
