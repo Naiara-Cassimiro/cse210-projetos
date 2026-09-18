@@ -16,6 +16,7 @@ class Program
 
         while (entrada != "quit" && !scripture.IsCompletelyHidden())
         {
+            Console.Clear();
         }
     }
 }
