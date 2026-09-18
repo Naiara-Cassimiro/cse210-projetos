@@ -13,5 +13,9 @@ class Program
         Console.WriteLine(scripture.GetDisplayText());
 
         string entrada = "";
+
+        while (entrada != "quit" && !scripture.IsCompletelyHidden())
+        {
+        }
     }
 }
