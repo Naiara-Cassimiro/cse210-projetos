@@ -23,6 +23,11 @@ class Program
             Console.WriteLine("Pressione Enter para continuar ou digite 'quit' para sair.");
 
             entrada = Console.ReadLine() ?? "";
+
+            if (entrada != "quit")
+            {
+                scripture.HideRandomWords(3);
+            }
         }
     }
 }
