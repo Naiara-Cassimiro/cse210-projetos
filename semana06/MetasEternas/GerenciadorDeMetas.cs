@@ -61,26 +61,32 @@ public class GerenciadorDeMetas
     public void ExibirInfoJogador()
     {
         string nivel;
+        string progresso;
 
         if (_pontos >= 1000)
         {
             nivel = "Mestre";
+            progresso = "Você alcançou o nível máximo!";
         }
         else if (_pontos >= 500)
         {
             nivel = "Experiente";
+            progresso = $"Faltam {1000 - _pontos} pontos para chegar ao nível Mestre.";
         }
         else if (_pontos >= 200)
         {
             nivel = "Aprendiz";
+            progresso = $"Faltam {500 - _pontos} pontos para chegar ao nível Experiente.";
         }
         else
         {
             nivel = "Iniciante";
+            progresso = $"Faltam {200 - _pontos} pontos para chegar ao nível Aprendiz.";
         }
 
         Console.WriteLine($"Você tem {_pontos} pontos.");
         Console.WriteLine($"Nível atual: {nivel}");
+        Console.WriteLine(progresso);
     }
 
     public void ListarNomesDasMetas()
