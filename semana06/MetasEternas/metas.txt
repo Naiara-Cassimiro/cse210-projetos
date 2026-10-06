@@ -1,0 +1,3 @@
+260
+MetaEterna:Orar diariamente|Fazer uma oração pessoal todos os dias|50
+MetaDeListaDeTarefas:Fazer exercício|Fazer 20 minutos de exercício|20|100|3|3
