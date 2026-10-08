@@ -36,7 +36,6 @@ while (opcao != "4")
 
         totalReflexao++;
     }
-    0
     else if (opcao == "3")
     {
         AtividadeDeListagem atividade = new AtividadeDeListagem();
